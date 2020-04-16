@@ -10,11 +10,11 @@ define([], function() {
     gridHeight: 50,
 
     // game settings
-    generationDuration: 5000,
-    giveCellsEvery: 6, // generations
+    generationDuration: 2000,
+    giveCellsEvery: 1, // generations
     
     // player settings
-    cellsPerPlayer: 12,
+    cellsPerPlayer: 1000,
     defaultPlayerColor: '#00aaff',
     lastSeenTimeout: 180000,
 
