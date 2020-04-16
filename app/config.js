@@ -2,15 +2,15 @@ define([], function() {
   return {
     // render settings
     deadCellColor: '#ffffff',
-    cellSize: 9,
-    cellSpacing: 1,
+    cellSize: 18,
+    cellSpacing: 2,
 
     // grid settings
-    gridWidth: 100,
-    gridHeight: 50,
+    gridWidth: 60,
+    gridHeight: 30,
 
     // game settings
-    generationDuration: 2000,
+    generationDuration: 1000,
     giveCellsEvery: 1, // generations
     
     // player settings
@@ -19,11 +19,11 @@ define([], function() {
     lastSeenTimeout: 180000,
 
     // server settings
-    timeBetweenStateUpdates: 10000,
+    timeBetweenStateUpdates: 5000,
     secretToken: "secret witch's brew",
     lowestHighScore: 200,
     chatLogLength: 175,
     chatMessageLength: 140,
-    timeBetweenLatencyTests: 10000
+    timeBetweenLatencyTests: 5000
   };
 });

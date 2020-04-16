@@ -3,21 +3,21 @@ define([], function() {
     // render settings
     deadCellColor: '#ffffff',
     defaultAccentColor: '#000000',
-    cellSize: 9,
-    cellSpacing: 1,
+    cellSize: 18,
+    cellSpacing: 2,
     tickBarHeight: 5,
 
     // grid settings
-    gridWidth: 100,
-    gridHeight: 50,
+    gridWidth: 60,
+    gridHeight: 30,
 
     // game settings
-    generationDuration: 5000,
-    giveCellsEvery: 6, // generations
-    timeBetweenUpdates: 10000,
+    generationDuration: 1000,
+    giveCellsEvery: 1, // generations
+    timeBetweenUpdates: 5000,
 
     // player settings
-    cellsPerPlayer: 12,
+    cellsPerPlayer: 1000,
     lastSeenTimeout: 180000,
 
     // chat settings
