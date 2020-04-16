@@ -2,12 +2,12 @@ define([], function() {
   return {
     // render settings
     deadCellColor: '#ffffff',
-    cellSize: 18,
+    cellSize: 12,
     cellSpacing: 2,
 
     // grid settings
-    gridWidth: 60,
-    gridHeight: 30,
+    gridWidth: 130,
+    gridHeight: 80,
 
     // game settings
     generationDuration: 1000,
